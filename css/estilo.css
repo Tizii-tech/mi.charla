@@ -1,0 +1,127 @@
+/* =========================================================
+   1 · LA PALETA DEL CURSO
+   Se escribe UNA sola vez, acá arriba. Todo lo demás usa var().
+   ========================================================= */
+:root {
+    /* Los seis colores de la identidad del CET */
+    --violeta: #2A2765;
+    --rojo: #DD2E26;
+    --cian: #12C2EC;
+    --amarillo: #ECDB14;
+    --azul-tec: #0A8BAA;
+    --azul: #345FAA;
+    --negro: black;
+
+    /* Escala del violeta */
+    --violeta-900: #6019be;
+    --violeta-800: #c41111;
+    --violeta-700: #eae9f3;
+
+
+    --texto: #ba0d0d;
+    --texto-suave: #504D75;
+    --blanco: #ffffff;
+}
+
+/* =========================================================
+   2 · LA PÁGINA ENTERA
+   display:flex + justify-content:center centran la tarjeta
+   en pantalla sin usar márgenes a ojo.
+   ========================================================= */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--rojo-900);
+    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+    color: var(--texto);
+}
+
+/* =========================================================
+   3 · LA TARJETA
+   ========================================================= */
+.tarjeta {
+    background: var(--negro);
+    border-top: 8px solid var(--rojo);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    max-width: 420px;
+}
+
+
+.tarjeta__logo {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    background-color: rgb(222, 192, 192);
+}
+
+.tarjeta__motos {
+    margin: .75rem 0 0;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    background-color: #ca0e11;
+    color:#2A2765;
+}
+
+.tarjeta__nombre {
+    margin: .4rem 0 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #600f96;
+}
+
+.tarjeta__frase {
+    margin: 1rem 0 0;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: #b20a0a
+}
+
+.tarjeta__sentementalismo {
+    margin: 1.25rem 0 0;
+    font-size: .82rem;
+    color: #b10b0b
+}
+
+
+
+
+
+
+
+
+
+.tarjeta--oscura {
+    background: var(--negro);
+    border-top-color: var(--rojo);
+}
+
+.tarjeta__pregunta {
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--violeta-900);
+}
+
+.tarjeta__respuesta {
+    margin: .5rem 0 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--rojo);
+}
+
+
+body {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
