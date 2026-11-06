@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>river</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="river.css">
+
+    <style>
+        .container-header {
+            background: #5C0008;
+            background: radial-gradient(circle, rgba(92, 0, 8, 1) 53%, rgba(176, 0, 26, 1) 70%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /*alinear verticalmante a los hijos*/
+        }
+
+        .header__logo {
+            width: 100px;
+        }
+
+        .container-header nav {
+            padding: 15px;
+        }
+
+        .container-header nav ul {
+            list-style: none;
+            /*elimina las viñetas de las listas*/
+            display: flex;
+            gap: 10px;
+            padding: 0%;
+        }
+
+        .container-header a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: var(--blanco-);
+            font-weight: 800;
+            font-size: 1.2rem;
+
+        }
+
+        .container-header a:hover {
+            background-color: var(--rojo-700);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #6c020a;
+            color: black;
+            padding: 10px;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        .footer-top-col a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-bottom-legal a {
+            color: rgb(238, 241, 243);
+        }
+
+        .footer-top-col ul li {
+            text-transform: uppercase;
+            list-style: none;
+            font-weight: 800;
+            font-size: 1.2rem;
+        }
+
+        .footer-top-col ul {
+            padding: 0%;
+        }
+
+        #btn-arrepentimiento {
+            background-color: black;
+            color: darkred;
+            text-align: center;
+            border: 3px solid var(--negro-);
+            padding: 15px;
+            border-radius: 7px;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid;
+        }
+
+        .footer-top-col i {
+            font-size: 2rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header class="container-header">
+        <img class="header__logo" src="river.jpg" alt="" height="90">
+        <nav>
+            <ul>
+                <li><a class="3nlace" href="">river</a></li>
+                <li><a class="3nlace" href="">mejor</a></li>
+                <li><a class="3nlace" href="">mundo</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    </head>
+
+    <body>
+        <header>
+
+        </header>
+        <main>
+
+            <section class="container"> <!--container-->
+                <article class="card">
+                    <!--imagen-->
+                    <div class="card__imagen">
+                        <img src="thiago wachin.jpg" height="350" alt="La Final De Madrid">
+                    </div>
+                    <!--titulo-->
+                    <h3 class="card__titulo">Copa Libertadores 2018 (Madrid)</h3>
+                    <!--parrafo-->
+                    <p class="card__parrafo">La Victoria y La Copa Libertadores mas Recordada.</p>
+                    <!--enlace-->
+                    <a href="" class="card__enlace">ver</a>
+                </article>
+                <article class="card">
+                    <!--imagen-->
+                    <div class="card__imagen">
+                        <img src="river 2015.webp" height="350" alt="Copa Libertadores 2015">
+                    </div>
+                    <!--titulo-->
+                    <h3 class="card__titulo">river campeon 2015</h3>
+                    <!--parrafo-->
+                    <p class="card__parrafo">el Mejor River de su Historia</p>
+                    <!--enlace-->
+                    <a href="" class="card__enlace">ver</a>
+                </article>
+                <article class="card">
+                    <!--imagen-->
+                    <div class="card__imagen">
+                        <img src="gallardo.jpg" alt="el Mejor Tecnico de la Historia de River">
+                    </div>
+                    <!--titulo-->
+                    <h3 class="card__titulo">Marcelo Gallardo</h3>
+                    <!--parrafo-->
+                    <p class="card__parrafo">El Muñeco Gallardo el Mejor Director Tecnico que pudo tener River Plate</p>
+                    <!--enlace-->
+                    <a href="" class="card__enlace">ver</a>
+                </article>
+                <article class="card">
+                    <!--imagen-->
+                    <div class="card__imagen">
+                        <img src="la araña.jpg" alt="Julian Alvarez">
+                    </div>
+                    <!--titulo-->
+                    <h3 class="card__titulo">Julian Alvarez</h3>
+                    <!--parrafo-->
+                    <p class="card__parrafo">"La Araña" Julian Alvarez es mi jugador favorito de river aunque ya no este
+                        y
+                        quizas no vuelva hasta su retiro fue y es mi jugador favorito de river </p>
+                    <!--enlace-->
+                    <a href="" class="card__enlace">ver</a>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <!-- primer fila -->
+            <div class="footer-top">
+                <section class="footer-top-col">
+                    <!-- ayuda -->
+                    <h4>ayuda</h4>
+                    <ul>
+                        <li><a href="">contactanos</a></li>
+                        <li><a href="">metodos de pago</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">segui tu envio</a></li>
+                    </ul>
+                    <a class="footer-top-btn" href="" id="btn-arrepentimiento">boton de arrepentimiento</a>
+                </section>
+                <section class="footer-top-col">
+                    <!-- servicios -->
+                    <h4>servicios</h4>
+                    <ul>
+                        <li><a href="">tiendas</a></li>
+                        <li><a href="">cambios y devoluiones</a></li>
+                        <li><a href="">cuidado de los productos</a></li>
+                        <li><a href="">guia de talles</a></li>
+                    </ul>
+                </section>
+                <section class="footer-top-col">
+                    <!-- acerca de puma-->
+                    <h4>acerca de puma</h4>
+                    <ul>
+                        <li><a href="">compañia</a></li>
+                        <li><a href="">noticias corporativas</a></li>
+                        <li><a href="">empleo</a></li>
+                        <li><a href="">PUMA sale</a></li>
+                    </ul>
+                </section>
+                <section class="footer-top-col">
+                    <!-- newletter-->
+                    <h4>manteneme al dia</h4>
+                    <p>inscribite y obtene 15% OFF en tu primera compra</p>
+                    <form class="footer-top-form-news" action="" method="post">
+                        <input type="email" name="correo" id="correo" placeholder="ingrese su email">
+                        <input type="submit" value="SUSCRIBIRME">
+
+                    </form>
+                    <div class="footer-top-social">
+                        <a href=""><i class="fa-brands fa-facebook-f"> </i> </a>
+                        <a href=""><i class="fa-brands fa-tiktok"> </i> </a>
+                        <a href=""><i class="fa-brands fa-instagram"> </i> </a>
+                        <a href=""><i class="fa-brands fa-youtube"> </i> </a>
+
+                    </div>
+
+                </section>
+            </div>
+            <!-- segunda fila -->
+            <div class="footer-bottom">
+                <section class="footer-bottom-legal">
+                    <a href="">terminos y condiciones</a>
+                    <a href="">politicas de privacidad</a>
+                    <a href="">configurar cookies</a>
+                </section>
+                <section class="footer-bottom-cards">
+                    <img src="visa.png" height="50" class="footer-bottom-img">
+                    <img src="redondo.png" height="50" class="footer-bottom-img">
+                    <img src="american-express.png" height="50" class="footer-bottom-img">
+                </section>
+            </div>
+
+        </footer>
+
+
+
+    </body>
+
+</html>
