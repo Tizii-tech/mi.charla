@@ -247,7 +247,7 @@ html {
 /* --- SECCIÓN EQUIPAMIENTO --- */
 
 /* Contenedor de herramientas */
-.equipment-grid {
+.equipment {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -276,7 +276,7 @@ html {
 /* --- SECCIÓN MERCADO --- */
 
 /* Contenedor de compra y venta */
-.market-grid {
+.market {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -310,7 +310,7 @@ html {
 /* --- SECCIÓN TIENDA (CONCESIONARIA) --- */
 
 /* Contenedor de motos en venta */
-.showroom-grid {
+.vidriera {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
