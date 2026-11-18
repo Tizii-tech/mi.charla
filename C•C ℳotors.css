@@ -1,0 +1,16 @@
+.conteiner-header {
+  padding: 15px 30px;
+  background-color: #181818;
+  /* Línea roja inferior eliminada */
+  color: #ffffff;
+  overflow: hidden;
+}
+.header-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  border: 2px solid #d01010;
+  margin-right: 10px;
+}
