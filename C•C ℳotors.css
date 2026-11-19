@@ -1,14 +1,14 @@
 /* Encabezado oscuro con marca y menú en fila. */
 .cabeza {
     display: flex;
-    background-color: #111111;
+    background-color: #0b0b0b;
     color: #ffffff;
     padding: 15px;
 }
 
 /* Separa la marca del menú. */
 .cabeza-marca {
-    margin: 0 20px 0 0;
+    margin: 20px;
 }
 
 /* Destaca el nombre de la marca. */
@@ -26,20 +26,20 @@
 
 /* Lleva el menú hacia la derecha. */
 .menu-nav {
-    margin: 0 0 0 auto;
+    margin: auto;
 }
 
 /* Ordena los enlaces y quita las viñetas. */
 .menu-nav ul {
     display: flex;
     list-style: none;
-    margin: 15px 0 0 0;
+    margin: 15px;
     padding: 0;
 }
 
 /* Separa los enlaces del menú. */
 .menu-nav li {
-    margin: 0 15px 0 0;
+    margin: 15px;
 }
 
 /* Fondo y texto de las secciones. */
@@ -65,8 +65,7 @@
 .etiqueton {
     color: #ff3333;
     font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: 900;
 }
 
 /* Acomoda las tarjetas en fila. */
@@ -75,7 +74,7 @@
 .galeria-tienda {
     display: flex;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 /* Da tamaño, espacio y fondo a las tarjetas de equipo. */
@@ -123,8 +122,7 @@
 .tarjeta-categoria {
     color: #ff3333;
     font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1px;
+    font-weight: 900;
 }
 
 /* Deja la flecha de consultar a la derecha. */
@@ -135,14 +133,7 @@
 
 /* Empuja la flecha de consultar a la derecha. */
 .tarjeta-mercado-link i {
-    margin: 0 0 0 auto;
-}
-
-/* Separa y centra las notas. */
-.nota-mercado {
-    margin-top: 20px;
-    color: #ffffff;
-    text-align: center;
+    margin: auto;
 }
 
 /* Quita el margen inicial de las fotos. */
@@ -166,70 +157,70 @@
     display: flex;
     margin-top: 15px;
     padding: 10px 0;
-    border-top: 1px solid #444444;
-    color: #ffffff;
+    border-top: 1px solid #d00f0f;
+    color: #c40f0f;
 }
 
 /* Lleva la flecha del precio a la derecha. */
 .tarjeta-moto-pie a {
-    margin: 0 0 0 auto;
+    margin: auto;
     color: #ff3333;
 }
 
 /* Fondo y columnas del pie de página. */
-.pie-pagina {
-    background-color: #111111;
-    color: #ffffff;
+.footer-pagina {
+    background-color: #0b0b0b;
+    color: #c40f0f;
     padding: 25px 15px;
 }
 
 /* Alinea las columnas del pie en fila. */
-.pie-contenedor {
+.footer-contenedor {
     display: flex;
     max-width: 1100px;
     margin: 0 auto;
 }
 
 /* Da tamaño a las columnas del pie. */
-.pie-columna-marca,
-.pie-columna {
+.footer-columna-marca,
+.footer-columna {
     width: 30%;
     min-height: 150px;
     margin: 10px;
 }
 
 /* Ajusta el logo del pie. */
-.pie-logo {
+.footer-logo {
     width: 60px;
     height: 60px;
     border: 1px solid #ff3333;
 }
 
 /* Resalta los títulos y la marca del pie. */
-.pie-columna h2,
-.pie-info strong {
+.footer-columna h2,
+.footer-info strong {
     color: #ff3333;
 }
 
 /* Quita viñetas y espacios de las listas. */
-.pie-columna ul {
+.footer-columna ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 /* Separa los elementos de la lista. */
-.pie-columna li {
+.footer-columna li {
     margin-bottom: 8px;
 }
 
 /* Separa los enlaces de redes sociales. */
-.pie-redes {
+.footer-redes {
     margin-top: 10px;
 }
 
 /* Da estilo al formulario de novedades. */
-.pie-formulario  {
+.footer-formulario {
     width: 90%;
     padding: 8px;
     background-color: #181818;
@@ -238,9 +229,9 @@
 }
 
 /* Separa el cierre del pie de página. */
-.pie-abajo {
+.footer-abajo {
     max-width: 1100px;
-    margin: 20px auto 0 auto;
+    margin: 20px;
     padding: 10px;
     border-top: 1px solid #444444;
     color: #ff3333;
@@ -248,8 +239,8 @@
 }
 
 /* Da color y tamaño a los íconos de pago. */
-.pie-iconos {
-    color: #ff3333;
+.footer-iconos {
+    color: #970d0d;
     font-size: 20px;
 }
 
