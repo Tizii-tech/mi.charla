@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
+    <!-- Define los caracteres que puede mostrar la página. -->
     <meta charset="UTF-8">
+    <!-- Ajusta la página al ancho de cada pantalla. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nombre que aparece en la pestaña del navegador. -->
     <title> C•C ℳotors </title>
 
+    <!-- Carga los estilos propios de la página. -->
     <link rel="stylesheet" href="C•C ℳotors.css">
-    <!-- Librería de íconos Font Awesome -->
+    <!-- Carga los íconos usados en la página. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
 
-    <!-- HEADER Y MENÚ DE NAVEGACIÓN -->
-    <header class="conteiner-header">
-        <img class="header-logo" src="" alt="logo de C•C ℳotors" height="300">
-        <span><strong> C•C ℳotors </strong></span>
-        <nav>
+
+    <!-- Encabezado con la marca y los enlaces principales. -->
+    <header class="cabeza">
+        <!-- Muestra el logo y el nombre del sitio. -->
+        <div class="cabeza-marca">
+            <img class="cabeza-logo" src="motores.jpg" alt="Logo de C•C ℳotors" height="450">
+            <span><strong> C•C ℳotors </strong></span>
+        </div>
+        <!-- Lleva a cada sección de la página. -->
+        <nav class="menu-nav">
             <ul>
-                <li><strong><a href="#equipamiento">Equipo</a></strong></li>
+                <li><strong><a href="#equipamiento">Equipamiento y herramientas</a></strong></li>
                 <li><strong><a href="#mercado">Mercado</a></strong></li>
                 <li><strong><a href="#tienda">Tienda</a></strong></li>
                 <li><strong><a href="#contacto">Contacto</a></strong></li>
@@ -34,45 +43,69 @@
 
 
     <main>
-        <!-- SECCIÓN DE EQUIPAMIENTO -->
+        <!-- Presenta equipo y herramientas para motociclistas. -->
         <section class="equipamiento seccion" id="equipamiento">
+            <!-- Título y descripción de la sección. -->
             <div class="titulo-seccion">
+                <p class="etiqueton">PREPARATE PARA EL CAMINO</p>
                 <h2>Equipo y herramientas</h2>
                 <p>Protección para vos y elementos básicos para cuidar tu moto antes y después de cada salida.</p>
             </div>
 
+
+            <!-- Agrupa las tarjetas de equipamiento. -->
             <div class="grupo-equipo">
+                <!-- Tarjeta de cascos y antiparras. -->
                 <article class="caja-equipo">
-                    <!-- fa-helmet-safety: ícono de casco -->
-                    <span class="caja-equipo-icono"><i class="fa-solid fa-helmet-safety" aria-hidden="true"></i></span>
+                    <!-- Ícono y detalles del producto. -->
+                    <span class="caja-equipo-icono"><i class="fa-solid fa-helmet-safety"></i></span>
                     <div>
                         <h3>Casco y antiparras</h3>
                         <p>Elegí protección homologada y una buena visión para el terreno.</p>
+                        <div class="tarjeta-moto-pie">
+                            <span>Precio a consultar</span>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </article>
+
+                <!-- Tarjeta de protecciones. -->
                 <article class="caja-equipo">
-                    <!-- fa-shield-halved: ícono de escudo -->
-                    <span class="caja-equipo-icono"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span>
+                    <!-- Ícono y detalles del producto. -->
+                    <span class="caja-equipo-icono"><i class="fa-solid fa-shield-halved"></i></span>
                     <div>
                         <h3>Protecciones</h3>
                         <p>Rodilleras, pechera y botas para sumar cobertura en off road.</p>
+                        <div class="tarjeta-moto-pie">
+                            <span>Precio a consultar</span>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </article>
+                <!-- Tarjeta de herramientas básicas. -->
                 <article class="caja-equipo">
-                    <!-- fa-screwdriver-wrench: ícono de herramientas -->
-                    <span class="caja-equipo-icono"><i class="fa-solid fa-screwdriver-wrench"
-                            aria-hidden="true"></i></span>
+                    <!-- Ícono y detalles del producto. -->
+                    <span class="caja-equipo-icono"><i class="fa-solid fa-screwdriver-wrench"></i></span>
                     <div>
                         <h3>Herramientas básicas</h3>
                         <p>Un kit compacto, llaves y parches pueden resolver imprevistos.</p>
+                        <div class="tarjeta-moto-pie">
+                            <span>Precio a consultar</span>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </article>
+                <!-- Tarjeta de mantenimiento. -->
                 <article class="caja-equipo">
-                    <!-- fa-oil-can: ícono de aceitera -->
-                    <span class="caja-equipo-icono"><i class="fa-solid fa-oil-can" aria-hidden="true"></i></span>
+                    <!-- Ícono y detalles del producto. -->
+                    <span class="caja-equipo-icono"><i class="fa-solid fa-oil-can"></i></span>
                     <div>
                         <h3>Mantenimiento</h3>
                         <p>Lubricante de cadena y elementos de limpieza para dejarla lista.</p>
+                        <div class="tarjeta-moto-pie">
+                            <span>Precio a consultar</span>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -82,44 +115,49 @@
 
 
 
-
-        <!-- SECCIÓN DE MERCADO -->
+        <!-- Muestra artículos disponibles para consultar. -->
         <section class="mercado seccion" id="mercado">
+            <!-- Título y descripción del mercado. -->
             <div class="titulo-seccion">
-                <h2>Mercado</h2>
+                <p class="etiqueton">COMPRA, VENTA E INTERCAMBIO</p>
+                <h2>Mercado sobre ruedas</h2>
                 <p>Encontrá accesorios para tu próxima salida o consultá cómo publicar los tuyos.</p>
             </div>
 
+            <!-- Agrupa las tarjetas del mercado. -->
             <div class="grupo-mercado">
+                <!-- Aviso de equipamiento. -->
                 <article class="tarjeta-mercado">
-                    <div class="tarjeta-mercado-icono"><i class="fa-solid fa-helmet-safety" aria-hidden="true"></i>
+                    <div class="tarjeta-mercado-icono"><i class="fa-solid fa-helmet-safety"></i>
                     </div>
                     <span class="tarjeta-mercado-etiqueta">EQUIPAMIENTO</span>
                     <h3>Casco off road</h3>
                     <p>Distintos talles y modelos. Consultá disponibilidad y estado.</p>
-                    <a class="tarjeta-mercado-link" href="#contacto"> Consultar <i class="fa-solid fa-arrow-right"
-                            aria-hidden="true"></i></a>
+                    <a class="tarjeta-mercado-link" href="#contacto">Consultar <i
+                            class="fa-solid fa-arrow-right"></i></a>
                 </article>
+                <!-- Aviso de herramientas. -->
                 <article class="tarjeta-mercado">
-                    <div class="tarjeta-mercado-icono"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+                    <div class="tarjeta-mercado-icono"><i class="fa-solid fa-screwdriver-wrench"></i>
                     </div>
                     <span class="tarjeta-mercado-etiqueta">HERRAMIENTAS</span>
                     <h3>Kit de herramientas</h3>
                     <p>Una selección compacta para llevar en tus recorridos.</p>
-                    <a class="tarjeta-mercado-link" href="#contacto"> Consultar <i class="fa-solid fa-arrow-right"
-                            aria-hidden="true"></i></a>
+                    <a class="tarjeta-mercado-link" href="#contacto">Consultar <i
+                            class="fa-solid fa-arrow-right"></i></a>
                 </article>
+                <!-- Aviso de repuestos y accesorios. -->
                 <article class="tarjeta-mercado">
-                    <div class="tarjeta-mercado-icono"><i class="fa-solid fa-motorcycle" aria-hidden="true"></i></div>
+                    <div class="tarjeta-mercado-icono"><i class="fa-solid fa-motorcycle"></i></div>
                     <span class="tarjeta-mercado-etiqueta">REPUESTOS</span>
                     <h3>Repuestos y accesorios</h3>
                     <p>Publicá piezas que ya no usás o buscá ese repuesto que te falta.</p>
-                    <a class="tarjeta-mercado-link" href="#contacto"> Consultar <i class="fa-solid fa-arrow-right"
-                            aria-hidden="true"></i></a>
+                    <a class="tarjeta-mercado-link" href="#contacto"> Consultar <i
+                            class="fa-solid fa-arrow-right"></i></a>
                 </article>
             </div>
-            <!-- fa-circle-info: ícono de información -->
-            <p class="nota-mercado"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Avisos de muestra:
+            <!-- Aclara que los avisos son ejemplos. -->
+            <p class="nota-mercado"><i class="fa-solid fa-circle-info"></i> Avisos de muestra:
                 consultá precio, estado y disponibilidad por correo.</p>
         </section>
 
@@ -127,26 +165,21 @@
 
 
 
-
-
-        <!-- SECCIÓN DE TIENDA -->
+        <!-- Presenta motos de muestra de la tienda. -->
         <section class="tienda seccion" id="tienda">
+            <!-- Identifica el tipo de tienda. -->
             <div class="titulo-seccion">
-                <p class="etiqueton">MINI CONCESIONARIA OFF ROAD</p>
-                <h2>Encontrá tu próxima compañera</h2>
-                <p>Una pequeña vidriera de modelos enduro para inspirar tu próxima aventura.</p>
+                <p class="etiqueton"> CONCESIONARIA OFF ROAD </p>
             </div>
 
+
+            <!-- Agrupa las motos disponibles en el catálogo. -->
             <div class="galeria-tienda">
+                <!-- Tarjeta de la KTM 690 Enduro. -->
                 <article class="tarjeta-moto">
                     <figure class="tarjeta-foto">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/KTM_690_Enduro.JPG"
-                            alt="Motocicleta KTM 690 Enduro estacionada sobre una colina" loading="lazy">
-                        <figcaption class="credito-foto">
-                            Foto: <a href="https://commons.wikimedia.org/wiki/File:KTM_690_Enduro.JPG"
-                                target="_blank">Richard Linnander</a>, <a
-                                href="https://creativecommons.org/licenses/by/3.0/" target="_blank"></a>
-                        </figcaption>
+                            alt="Motocicleta KTM 690 Enduro estacionada sobre una colina">
                     </figure>
                     <div class="tarjeta-moto-cuerpo">
                         <span class="tarjeta-categoria">ENDURO</span>
@@ -154,18 +187,17 @@
                         <p>Una compañera versátil para combinar ruta y aventura.</p>
                         <div class="tarjeta-moto-pie">
                             <span>Precio a consultar</span>
-                            <a href="#contacto"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </article>
+
+
+                <!-- Tarjeta de la KTM 950 SuperEnduro R. -->
                 <article class="tarjeta-moto">
                     <figure class="tarjeta-foto">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/KTM_950_SuperEnduro_R.jpg"
-                            alt="Motocicleta KTM 950 SuperEnduro R" loading="lazy">
-                        <figcaption class="credito-foto">
-                            Foto: <a href="https://commons.wikimedia.org/wiki/File:KTM_950_SuperEnduro_R.jpg"
-                                target="_blank">StealthFX</a>, dominio público
-                        </figcaption>
+                            alt="Motocicleta KTM 950 SuperEnduro R">
                     </figure>
                     <div class="tarjeta-moto-cuerpo">
                         <span class="tarjeta-categoria">SUPER ENDURO</span>
@@ -173,95 +205,97 @@
                         <p>Una enduro de gran porte para quienes sueñan en grande.</p>
                         <div class="tarjeta-moto-pie">
                             <span>Precio a consultar</span>
-                            <a href="#contacto"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </article>
+
+
+                <!-- Tarjeta de la KTM 200 EXC. -->
                 <article class="tarjeta-moto">
                     <figure class="tarjeta-foto">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Ktm_200_exc_with_powerparts_tokyo_motorcycle_show_2014.JPG"
-                            alt="Motocicleta KTM 200 EXC exhibida en una feria" loading="lazy">
-                        <figcaption class="credito-foto">
-                            Foto: <a
-                                href="https://commons.wikimedia.org/wiki/File:Ktm_200_exc_with_powerparts_tokyo_motorcycle_show_2014.JPG"
-                                target="_blank">Rainmaker47</a>, <a
-                                href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank"></a>
-                        </figcaption>
+                            alt="Motocicleta KTM 200 EXC exhibida en una feria">
                     </figure>
+
                     <div class="tarjeta-moto-cuerpo">
                         <span class="tarjeta-categoria">ENDURO</span>
                         <h3>KTM 200 EXC</h3>
                         <p>Una moto liviana pensada para disfrutar los senderos.</p>
                         <div class="tarjeta-moto-pie">
                             <span>Precio a consultar</span>
-                            <a href="#contacto"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                            <a href="#contacto"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </article>
             </div>
-            <p class="nota-mercado"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Catálogo ilustrativo: las
+
+            <!-- Aclara que las fotos son ilustrativas. -->
+            <p class="nota-mercado"><i class="fa-solid fa-circle-info"></i> Catálogo ilustrativo: las
                 fotos muestran modelos de referencia, no unidades confirmadas en stock.</p>
         </section>
-
     </main>
 
 
 
 
 
+    <!-- Pie de página con contacto, enlaces y novedades. -->
+    <footer class="pie-pagina" id="contacto">
+        <!-- Agrupa las columnas del pie. -->
+        <div class="pie-contenedor">
+            <!-- Muestra la marca y sus redes sociales. -->
+            <section class="pie-columna-marca">
+                <img class="pie-logo" src="motorcycle.png" height="80" alt="C•C ℳotors">
+                <div class="pie-info">
 
-
-    <!-- FOOTER Y CONTACTO -->
-    <footer class="" id="contacto">
-        <div class="">
-            <section class="">
-                <img class="" src="" height="80" alt="C•C ℳotors">
-                <div class="">
                     <strong> C•C ℳotors </strong>
-                    <!-- fa-brands: íconos de marcas y redes sociales -->
-                    <div class="">
-                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"
-                                aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"
-                                aria-hidden="true"></i></a>
-                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+
+                    <!-- Enlaces a las redes sociales. -->
+                    <div class="pie-redes">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
             </section>
 
-            <section class="">
+            <!-- Enlaces para volver a las secciones. -->
+            <section class="pie-columna">
                 <h2>Explora</h2>
                 <ul>
-                    <li><a href="#equipamiento">Equipamiento y herramientas</a></li>
-                    <li><a href="#mercado">Compra y venta</a></li>
-                    <li><a href="#tienda">Concesionaria</a></li>
-                    <li><a href="#consejos">Seguridad en ruta</a></li>
+                    <li><strong><a href="#equipamiento">Equipamiento y herramientas</a></strong></li>
+                    <li><strong><a href="#mercado">Mercado</a></strong></li>
+                    <li><strong><a href="#tienda">Tienda</a></strong></li>
+                    <li><strong><a href="#contacto">Contacto</a></strong></li>
                 </ul>
             </section>
 
-            <section class="">
-                <h2>¿Tenés Dudas?</h2>
-                <!-- mailto: abre el programa de correo para enviar un email directo -->
-                <a class="" href="mailto:hola@C•Cℳotors.com">hola@HondaRedsRiders.com</a>
-            </section>
-
-            <section class="">
+            <!-- Formulario para ingresar un correo electrónico. -->
+            <section class="pie-columna">
                 <h2>Novedades</h2>
-                <form class="" action="" method="post">
+                <form class="pie-formulario" method="post">
                     <input type="email" name="correo" id="correo" placeholder="Tu correo electrónico">
                 </form>
             </section>
         </div>
 
-        <div class="">
+        <!-- Muestra el nombre y los medios de pago. -->
+        <div class="pie-abajo">
             <p> C•C ℳotors </p>
-            <div class="">
-                <i class="fa-brands fa-cc-visa" aria-label="Visa"></i>
-                <i class="fa-brands fa-cc-mastercard" aria-label="Mastercard"></i>
-                <i class="fa-brands fa-cc-amex" aria-label="American Express"></i>
+            <div class="pie-iconos">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-amex"></i>
             </div>
         </div>
     </footer>
+
+
+
+
+
+
 </body>
 
 </html>
