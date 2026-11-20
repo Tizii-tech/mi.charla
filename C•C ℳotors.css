@@ -1,250 +1,243 @@
 /* Encabezado oscuro con marca y menú en fila. */
 .cabeza {
-    display: flex;
-    background-color: #0b0b0b;
-    color: #ffffff;
-    padding: 15px;
+  display: flex;
+  background-color: #0b0b0b;
+  color: #ffffff;
+  padding: 15px;
 }
 
 /* Separa la marca del menú. */
 .cabeza-marca {
-    margin: 20px;
+  margin: 20px;
 }
 
 /* Destaca el nombre de la marca. */
 .cabeza-marca strong {
-    color: #ff3333;
-    font-size: 20px;
+  color: #ff3333;
+  font-size: 20px;
 }
 
 /* Da tamaño y borde al logo. */
 .cabeza-logo {
-    width: 50px;
-    height: 50px;
-    border: 2px solid #ff3333;
+  width: 120px;
+  height: 80px;
+  border: 2px solid #ff3333;
 }
 
 /* Lleva el menú hacia la derecha. */
 .menu-nav {
-    margin: auto;
+  margin: auto;
 }
 
 /* Ordena los enlaces y quita las viñetas. */
 .menu-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 15px;
-    padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 15px;
+  padding: 0;
 }
 
 /* Separa los enlaces del menú. */
 .menu-nav li {
-    margin: 15px;
+  margin: 15px;
 }
 
 /* Fondo y texto de las secciones. */
 .seccion {
-    padding: 30px 15px;
-    background-color: #222222;
-    color: #ffffff;
-    text-align: center;
+  padding: 30px 15px;
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Deja espacio bajo el título. */
 .titulo-seccion {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 /* Resalta los títulos de sección. */
 .titulo-seccion h2 {
-    color: #ff3333;
-    font-size: 24px;
-}
-
-/* Da estilo a las etiquetas pequeñas. */
-.etiqueton {
-    color: #ff3333;
-    font-size: 14px;
-    font-weight: 900;
+  color: #ff3333;
+  font-size: 24px;
 }
 
 /* Acomoda las tarjetas en fila. */
 .grupo-equipo,
 .grupo-mercado,
 .galeria-tienda {
-    display: flex;
-    max-width: 1100px;
-    margin: auto;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
 }
 
 /* Da tamaño, espacio y fondo a las tarjetas de equipo. */
 .caja-equipo {
-    width: 20%;
-    min-height: 160px;
-    margin: 10px;
-    padding: 12px;
-    background-color: #181818;
-    border: 1px solid #ff3333;
-    text-align: left;
+  width: 20%;
+  min-height: 160px;
+  margin: 10px;
+  padding: 12px;
+  background-color: #181818;
+  border: 1px solid #ff3333;
+  text-align: left;
 }
 
 /* Da tamaño, espacio y fondo a las tarjetas del mercado. */
 .tarjeta-mercado {
-    width: 26%;
-    min-height: 220px;
-    margin: 10px;
-    padding: 12px;
-    background-color: #181818;
-    border: 1px solid #ff3333;
-    text-align: left;
+  width: 26%;
+  min-height: 220px;
+  margin: 10px;
+  padding: 12px;
+  background-color: #181818;
+  border: 1px solid #ff3333;
+  text-align: left;
 }
 
 /* Da tamaño, espacio y fondo a las tarjetas de motos. */
 .tarjeta-moto {
-    width: 26%;
-    min-height: 360px;
-    margin: 10px;
-    padding: 12px;
-    background-color: #181818;
-    border: 1px solid #ff3333;
-    text-align: left;
+  width: 26%;
+  min-height: 360px;
+  margin: 10px;
+  padding: 12px;
+  background-color: #181818;
+  border: 1px solid #ff3333;
+  text-align: left;
 }
 
 /* Colorea los íconos de las tarjetas. */
 .caja-equipo-icono,
 .tarjeta-mercado-icono {
-    color: #ff3333;
-    font-size: 24px;
+  color: #ff3333;
+  font-size: 24px;
 }
 
 /* Destaca las categorías de las tarjetas. */
 .tarjeta-mercado-etiqueta,
 .tarjeta-categoria {
-    color: #ff3333;
-    font-size: 14px;
-    font-weight: 900;
+  color: #ff3333;
+  font-size: 14px;
+  font-weight: 900;
 }
 
 /* Deja la flecha de consultar a la derecha. */
 .tarjeta-mercado-link {
-    display: flex;
-    color: #ff3333;
+  display: flex;
+  color: #ff3333;
 }
 
 /* Empuja la flecha de consultar a la derecha. */
 .tarjeta-mercado-link i {
-    margin: auto;
+  margin: auto;
 }
 
 /* Quita el margen inicial de las fotos. */
 .tarjeta-foto {
-    margin: 0;
+  margin: 0;
 }
 
 /* Imagen y contenido de las motos. */
 .tarjeta-foto img {
-    width: 100%;
-    height: 180px;
+  width: 100%;
+  height: 180px;
 }
 
 /* Da espacio al texto de cada moto. */
 .tarjeta-moto-cuerpo {
-    padding: 10px;
+  padding: 10px;
 }
 
 /* Separa el precio del resto de la tarjeta. */
 .tarjeta-moto-pie {
-    display: flex;
-    margin-top: 15px;
-    padding: 10px 0;
-    border-top: 1px solid #d00f0f;
-    color: #c40f0f;
+  display: flex;
+  margin-top: 15px;
+  padding: 10px 0;
+  border-top: 1px solid #d00f0f;
+  color: #c40f0f;
 }
 
 /* Lleva la flecha del precio a la derecha. */
 .tarjeta-moto-pie a {
-    margin: auto;
-    color: #ff3333;
+  margin: auto;
+  color: #ff3333;
 }
 
 /* Fondo y columnas del pie de página. */
 .footer-pagina {
-    background-color: #0b0b0b;
-    color: #c40f0f;
-    padding: 25px 15px;
+  background-color: #0b0b0b;
+  color: #c40f0f;
+  padding: 25px 15px;
 }
 
 /* Alinea las columnas del pie en fila. */
 .footer-contenedor {
-    display: flex;
-    max-width: 1100px;
-    margin: 0 auto;
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 /* Da tamaño a las columnas del pie. */
 .footer-columna-marca,
 .footer-columna {
-    width: 30%;
-    min-height: 150px;
-    margin: 10px;
+  width: 30%;
+  min-height: 150px;
+  margin: 10px;
 }
 
 /* Ajusta el logo del pie. */
 .footer-logo {
-    width: 60px;
-    height: 60px;
-    border: 1px solid #ff3333;
+  width: 120px;
+  height: 80px;
+  border: 1px solid #ff3333;
 }
 
 /* Resalta los títulos y la marca del pie. */
 .footer-columna h2,
 .footer-info strong {
-    color: #ff3333;
+  color: #ff3333;
 }
 
 /* Quita viñetas y espacios de las listas. */
 .footer-columna ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Separa los elementos de la lista. */
 .footer-columna li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* Separa los enlaces de redes sociales. */
 .footer-redes {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* Da estilo al formulario de novedades. */
 .footer-formulario {
-    width: 90%;
-    padding: 8px;
-    background-color: #181818;
-    color: #ffffff;
-    border: 1px solid #ff3333;
+  width: 90%;
+  padding: 8px;
+  background-color: #181818;
+  color: #ffffff;
+  border: 1px solid #ff3333;
 }
 
 /* Separa el cierre del pie de página. */
 .footer-abajo {
-    max-width: 1100px;
-    margin: 20px;
-    padding: 10px;
-    border-top: 1px solid #444444;
-    color: #ff3333;
-    text-align: center;
+  max-width: 1100px;
+  margin: 20px;
+  padding: 10px;
+  border-top: 1px solid #444444;
+  color: #ff3333;
+  text-align: center;
 }
 
 /* Da color y tamaño a los íconos de pago. */
 .footer-iconos {
-    color: #970d0d;
-    font-size: 20px;
+  color: #970d0d;
+  font-size: 20px;
 }
 
 /* Mantiene los enlaces en rojo. */
 a {
-    color: #ff3333;
+  color: #ff3333;
 }
